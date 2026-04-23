@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ilyas Maulidan | Creative Web Developer</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <div class="cursor-glow"></div>
+
+    <div id="preloader">
+        <div class="loader-content">
+            <span class="loader-text">ILYAS MAULIDAN</span>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <nav class="navbar">
+        <div class="logo">IM<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="status-badge">
+            <div class="pulse"></div> Available for Work
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="zoom-out" data-aos-duration="1500">
+            <div class="profile-container">
+                <div class="profile-glow"></div>
+                <img src="ilyas.jpg" alt="Ilyas Maulidan" class="profile-img">
+            </div>
+            <h1>Hi, I'm Ilyas Maulidan</h1>
+            <h2 class="neon-text">Creative Web Developer</h2>
+            <p><span id="typing"></span></p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+        <div class="container" data-aos="fade-up">
+            <div class="glass-card about-card text-center">
+                <div class="about-icon" style="font-size: 2.5rem; color: var(--neon-blue); margin-bottom: 1rem;">
+                    <i class="fas fa-user-astronaut"></i>
+                </div>
+                <h3>About Me</h3>
+                <p>Saya adalah Web Developer yang berfokus pada pembuatan website modern, interaktif, dan profesional. Saya memiliki passion dalam menciptakan UI yang elegan dan pengalaman pengguna yang menarik melalui teknologi web terbaru.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-down" style="margin-bottom: 3rem;">Technical Mastery</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card" data-aos="flip-left" style="--clr:#00d2ff">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML</h4>
+                    <p>Struktur website modern & SEO-friendly.</p>
+                    <div class="progress-container"><div class="progress" style="width: 95%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="flip-left" data-aos-delay="100" style="--clr:#ff00d0">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS</h4>
+                    <p>Desain responsive & UI Glassmorphism.</p>
+                    <div class="progress-container"><div class="progress" style="width: 90%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="flip-left" data-aos-delay="200" style="--clr:#ffff00">
+                    <i class="fab fa-js"></i>
+                    <h4>JavaScript</h4>
+                    <p>Fitur interaktif & DOM Manipulation.</p>
+                    <div class="progress-container"><div class="progress" style="width: 85%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="flip-left" data-aos-delay="300" style="--clr:#777bb4">
+                    <i class="fab fa-php"></i>
+                    <h4>PHP</h4>
+                    <p>Backend logic & Database handling.</p>
+                    <div class="progress-container"><div class="progress" style="width: 80%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up" style="margin-bottom: 2rem;">Featured Projects</h2>
+            
+            <div class="filter-container text-center" data-aos="fade-up" style="margin-bottom: 3rem;">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Web</button>
+                <button class="filter-btn">UI/UX</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card glass-card" data-aos="fade-up">
+                    <div class="project-img">
+                        <img src="ron.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Web Development</span>
+                        <h4>E-Commerce Cyber</h4>
+                        <p>Platform belanja online dengan fitur inventory modern.</p>
+                        <div class="tech-stack">
+                            <span>React</span><span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="bljr.jpg" alt="Project 2">
+                        <div class="project-overlay">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">UI/UX Design</span>
+                        <h4>Neon Dashboard</h4>
+                        <p>Admin panel interaktif dengan visualisasi data.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journey" class="journey section-padding">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up" style="margin-bottom: 3rem;">My Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="date">2024 - Present</span>
+                        <h4>Freelance Web Developer</h4>
+                        <p>Fokus membangun solusi digital yang cepat dan efisien.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="date">2023</span>
+                        <h4>Learning Phase</h4>
+                        <p>Mendalami teknologi modern Fullstack Development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hire-me section-padding">
+        <div class="container" data-aos="fade-up">
+            <div class="glass-card highlight-card text-center">
+                <h2>Open for Opportunities</h2>
+                <p>Mari bekerja sama untuk membangun website impian Anda!</p>
+                <div class="perks" style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin: 1.5rem 0;">
+                    <span><i class="fas fa-bolt"></i> Fast Learner</span>
+                    <span><i class="fas fa-magic"></i> UI/UX Focus</span>
+                    <span><i class="fas fa-users"></i> Team Player</span>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container text-center">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-links">
+                <a href="https://wa.me/6285722493007" target="_blank" class="contact-card wa" data-aos="zoom-in">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="https://www.instagram.com/y4s5_3?igsh=cGJodmhqNGpnMGJl" target="_blank" class="contact-card ig" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ilyas Maulidan. Crafting modern digital experiences.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
